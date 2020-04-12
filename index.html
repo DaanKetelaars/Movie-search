@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Herkansing - Daan</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Filmpedia 🎥</h1>
+      <p>Vind hier jouw favoriete films. Zoals: The Joker, 1917 en meer.</p>
+      <button id="darkmode">Dark mode 🌔</button>
+      <button id="lightmode">Light mode ☀️</button>
+      <button id="serif">Serif 🔣</button>
+      <button id="sansserif">Sans serif 🔣</button>
+    </header>
+
+    <form id="search-filter">
+      <input type="search" name="zoeken" placeholder="zoeken..." id="zoeken" />
+    </form>
+    <div id="zoekresultaat"></div>
+
+    <hr>
+
+
+    <h2>Wat weet je over film?</h2>
+    <p>Weet jij rond welke jaar de eerte films werden gemaakt?</p>
+    <form name="vraagform">
+      <input type="number" name="inputantwoord">
+      <input type='reset' name='reset'>
+      <button id="submitbtn" class='submit'>Submit</button>
+      <p id="antwoord"></p>
+    </form>
+
+    <hr>
+
+    <div id="recent_films">
+      <h2>Meest Recente films</h2>
+      <div class="slider">
+        <button id='prev'>prev</button>
+        <button id='next'>next</button>
+        <img src="img/foto00.jpg" alt="recente films" id='foto'>
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
