@@ -72,7 +72,7 @@ zoekVeld.addEventListener('input', (e) => {
   zoekResultatenContainer.innerHTML = '';
 
   // laat de titels zien van de objecten in de array die de tekst bevatten die ingevoerd is in de input field
-  zoekResultaat.forEach((element, index, image) => {
+  zoekResultaat.forEach((element, index) => {
     var heading = document.createElement('h1');
     heading.textContent = element.title;
     zoekResultatenContainer.appendChild(heading);
